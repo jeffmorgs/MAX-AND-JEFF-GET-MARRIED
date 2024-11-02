@@ -131,7 +131,7 @@ h3 {
 .map-container {
     position: relative;
     width: 100%;        /* Full width of the container */
-    max-width: 800px;
+    max-width: 900px;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
