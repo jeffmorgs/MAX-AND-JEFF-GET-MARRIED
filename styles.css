@@ -128,6 +128,31 @@ h3 {
     margin-bottom: 0;
 }
 
+.map-container {
+    position: relative;
+    width: 100%;        /* Full width of the container */
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;     /* Centers the container */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Additional media query for extra small screens */
+@media (max-width: 600px) {
+    .map-container {
+        padding-bottom: 75%; /* Increase height ratio on smaller screens */
+    }
+}
+
 /* WHEN */
 h4 {
     color: #B22222;
