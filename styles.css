@@ -65,11 +65,24 @@ a {
     pointer-events: none; 
 }
 
-
 /* Show popup class */
 #popup-image.show {
     opacity: 1;
     pointer-events: auto;
+}
+
+@media (max-width: 600px) {
+    .center-container {
+        width: 100%; /* Shrink image to 80% of the screen width */
+        max-width: 431px; /* Set a smaller maximum width */
+        max-height: 90vh;
+    }
+}
+
+@media (max-width: 600px) {
+    . center-container {
+        object-fit: contain;
+    }
 }
 
 /* 23.08.2024 */
