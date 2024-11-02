@@ -79,7 +79,7 @@ a {
     }
      .main-image {
         width: 90%;       /* Scales down the main image for mobile screens */
-        max-width: 300px; /* Sets a smaller maximum width for mobile */
+        max-width: 431px; /* Sets a smaller maximum width for mobile */
     }
     #popup-image {
         bottom: 30%;      /* Adjust popup position for smaller screens */
