@@ -1,0 +1,117 @@
+body {
+    font-family: Monaco;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: Monaco;
+    color: #B22222;
+ 
+} 
+
+a {
+    color: #B22222;
+}
+
+.center-container {
+    max-width: 100%; /* Adjust to match the width of your site's main content */
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+}
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    text-align:center;
+}
+
+.main-image {
+    width:800px; /* Ensure the main image fills the container */
+    display: inline-block;
+} 
+
+#popup-image {
+    position: relative;
+    bottom: 420px; /* Adjust to position the popup image */
+    right: 100px; /* Adjust to position the popup image */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none; 
+}
+
+
+/* Show popup class */
+#popup-image.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* 23.08.2024 */
+h1 {
+    color: #B22222;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    margin-bottom: 1;
+}
+
+/* TITLE */
+h2 {
+    color: #B22222;
+    font-weight: 100;
+    letter-spacing: 1.8px;
+    font-size: 3.5em;
+    margin-top: 0;
+    border: 7px solid #B22222;
+    padding: 10px;
+    display: inline-block; 
+ }
+
+/* WHERE */
+h3 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 2.7em;
+    margin-bottom: 0;
+}
+
+/* WHEN */
+h4 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size:  2.85em;
+    margin-bottom: 0;
+}
+
+/* Countdown */ 
+h5 {
+    color: #B22222;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size:  2.0em;
+    margin-bottom: 2;
+    margin-top: 0;
+    border: 7px solid #B22222;
+    padding: 10px;
+    display: inline-block; 
+}
+
+
+h6 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 2.85em;
+    margin-bottom: 0;
+    Margin-top:0;
+}
+
+
