@@ -58,7 +58,7 @@ window.addEventListener("scroll", () => {
         // Start the interval to prevent immediate re-showing
         intervalTimeout = setTimeout(() => {
             intervalTimeout = null; // Reset the interval timeout after the popup has shown
-        }, 10000); // Adjust this value as needed
+        }, 50000); // Adjust this value as needed
     }
 });
 
