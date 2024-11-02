@@ -17,7 +17,7 @@ a {
 }
 
 .greece-photo {
-    width: 100%;
+    width: 80%;
     max-width: 431px; /* Set the width */
     height: auto; /* Set the height */
     max-height: 90vh;
@@ -28,6 +28,12 @@ a {
         width: 80%; /* Shrink image to 80% of the screen width */
         max-width: 300px; /* Set a smaller maximum width */
         max-height: 60vh;
+    }
+}
+
+@media (max-width: 600px) {
+    . greece-photo {
+        object-fit: contain;
     }
 }
 .center-container {
