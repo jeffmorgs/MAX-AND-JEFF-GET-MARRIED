@@ -150,6 +150,7 @@ h3 {
 @media (max-width: 600px) {
     .map-container {
         padding-bottom: 75%; /* Increase height ratio on smaller screens */
+        max-width: 431px;
     }
 }
 
