@@ -78,7 +78,7 @@ a {
         max-height: 90vh;
     }
      .main-image {
-        width: 90%;       /* Scales down the main image for mobile screens */
+        width: 100%;       /* Scales down the main image for mobile screens */
         max-width: 431px; /* Sets a smaller maximum width for mobile */
     }
     #popup-image {
