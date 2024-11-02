@@ -196,4 +196,14 @@ h6 {
     Margin-top:0;
 }
 
-
+.image-pair {
+    display: flex;
+    justify-content: center; /* Centers the images within the container */
+    gap: 10px;               /* Adds space between the images */
+    flex-wrap: nowrap;       /* Keeps images side by side on smaller screens */
+}
+.image-pair img {
+    width: 100%; /* Ensures images stay within container size */
+    max-width: 250px; /* Limits max width to prevent images from stretching too wide */
+    height: auto; /* Maintains aspect ratio */
+}
