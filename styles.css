@@ -87,7 +87,17 @@ a {
     }
 }
 
-
+@media (max-width: 600px) {
+    .center-container {
+        object-fit: contain;
+    }
+    .main-image {
+        object-fit: contain;
+    }
+      #popup-image {
+          object-fit: contain;
+    }
+}
 /* 23.08.2024 */
 h1 {
     color: #B22222;
