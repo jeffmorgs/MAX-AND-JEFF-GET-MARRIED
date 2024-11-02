@@ -77,13 +77,16 @@ a {
         max-width: 431px; /* Set a smaller maximum width */
         max-height: 90vh;
     }
-}
-
-@media (max-width: 600px) {
-    . center-container {
-        object-fit: contain;
+     .main-image {
+        width: 90%;       /* Scales down the main image for mobile screens */
+        max-width: 300px; /* Sets a smaller maximum width for mobile */
+    }
+    #popup-image {
+        bottom: 30%;      /* Adjust popup position for smaller screens */
+        right: 5%;        /* Position more centrally on mobile */
     }
 }
+
 
 /* 23.08.2024 */
 h1 {
