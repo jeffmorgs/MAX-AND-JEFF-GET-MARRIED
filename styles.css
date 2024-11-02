@@ -207,3 +207,15 @@ h6 {
     max-width: 250px; /* Limits max width to prevent images from stretching too wide */
     height: auto; /* Maintains aspect ratio */
 }
+
+
+@media (max-width: 600px) {
+    .aura-pair {
+        flex-wrap: nowrap;
+    }
+
+    .aura-pair img {
+        width: 40vw;  /* Slightly smaller width to prevent cutoff */
+        max-width: none;
+    }
+}
