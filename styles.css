@@ -151,6 +151,7 @@ h3 {
     .map-container {
         padding-bottom: 75%; /* Increase height ratio on smaller screens */
         max-width: 431px;
+        width: 90%;
     }
 }
 
