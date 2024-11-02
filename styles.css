@@ -58,8 +58,8 @@ a {
 
 #popup-image {
     position: relative;
-    bottom: 420px; /* Adjust to position the popup image */
-    right: 100px; /* Adjust to position the popup image */
+    bottom: 50%; /* Adjust to position the popup image */
+    right: 10%; /* Adjust to position the popup image */
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     pointer-events: none; 
