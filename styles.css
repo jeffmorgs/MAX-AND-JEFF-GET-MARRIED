@@ -16,6 +16,12 @@ a {
     color: #B22222;
 }
 
+.greece-photo {
+    width: 100%;
+    max-width: 431px; /* Set the width */
+    height: auto; /* Set the height */
+}
+
 .center-container {
     max-width: 100%; /* Adjust to match the width of your site's main content */
     margin: 0 auto; 
