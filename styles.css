@@ -121,8 +121,9 @@ h2 {
 
 @media (max-width: 600px) {
     h2 {
-        font-size: 11vw; /* Adjust font size to fit smaller screens */
+        font-size: 12vw; /* Adjust font size to fit smaller screens */
         line-height: 1.2; /* Adjust line height for better spacing */
+        font-weight: bold;
     }
 }
 
