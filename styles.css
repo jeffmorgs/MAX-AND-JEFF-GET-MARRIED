@@ -119,6 +119,13 @@ h2 {
     display: inline-block; 
  }
 
+@media (max-width: 600px) {
+    h2 {
+        font-size: 2em; /* Adjust font size to fit smaller screens */
+        line-height: 1.2; /* Adjust line height for better spacing */
+    }
+}
+
 /* WHERE */
 h3 {
     color: #B22222;
