@@ -24,7 +24,7 @@ a {
     background-color: #FFFFFF;
     justify-content: center;
     text-align: center;
-    display: inline-block;
+    display: flex;
 }
 
 .navbar a {
