@@ -25,6 +25,7 @@ a {
     padding: 5px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .navbar a {
