@@ -1,0 +1,246 @@
+body {
+    padding-top:60;
+    font-family: Monaco;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+p {
+    font-size: 1.25em;
+    font-family: Monaco;
+    color: #B22222;
+ 
+} 
+
+a {
+    color: #B22222;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 431px;
+    margin: 0 auto; 
+    font-size: 1.25em;
+    background-color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.navbar a {
+    color: #B22222;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background-color: #F5F5F5;
+}
+
+
+.greece-photo {
+    width: 100%;
+    max-width: 431px; /* Set the width */
+    height: auto; /* Set the height */
+    max-height: 90vh;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    .greece-photo {
+        width: 100%; /* Shrink image to 80% of the screen width */
+        max-width: 431px; /* Set a smaller maximum width */
+        max-height: 90vh;
+    }
+}
+
+@media (max-width: 600px) {
+    . greece-photo {
+        object-fit: contain;
+    }
+}
+.center-container {
+    max-width: 100%; /* Adjust to match the width of your site's main content */
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+}
+    margin: 0 auto; /* Centers the container horizontally */
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    text-align:center;
+}
+
+.main-image {
+    width:800px; /* Ensure the main image fills the container */
+    display: inline-block;
+} 
+
+#popup-image {
+    position: relative;
+    bottom: 70%; /* Adjust to position the popup image */
+    right: 10%; /* Adjust to position the popup image */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none; 
+}
+
+/* Show popup class */
+#popup-image.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+@media (max-width: 600px) {
+    .center-container {
+        width: 100%; /* Shrink image to 80% of the screen width */
+        max-width: 431px; /* Set a smaller maximum width */
+        max-height: 90vh;
+    }
+     .main-image {
+        width: 100%;       /* Scales down the main image for mobile screens */
+        max-width: 431px; /* Sets a smaller maximum width for mobile */
+    }
+    #popup-image {
+        bottom: 30%;      /* Adjust popup position for smaller screens */
+        right: 5%;        /* Position more centrally on mobile */
+    }
+}
+
+@media (max-width: 600px) {
+    .center-container {
+        object-fit: contain;
+    }
+    .main-image {
+        object-fit: contain;
+    }
+      #popup-image {
+          object-fit: contain;
+    }
+}
+/* 23.08.2024 */
+h1 {
+    color: #B22222;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+/* TITLE */
+h2 {
+    color: #B22222;
+    font-weight: 100;
+    letter-spacing: 1.8px;
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 2px;
+    border: 7px solid #B22222;
+    padding: 10px;
+    display: inline-block; 
+ }
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 12vw; /* Adjust font size to fit smaller screens */
+        line-height: 1.2; /* Adjust line height for better spacing */
+        font-weight: bold;
+    }
+}
+
+/* WHERE */
+h3 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 2.7em;
+    margin-bottom: 0;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;        /* Full width of the container */
+    max-width: 900px;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;     /* Centers the container */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Additional media query for extra small screens */
+@media (max-width: 600px) {
+    .map-container {
+        padding-bottom: 75%; /* Increase height ratio on smaller screens */
+        max-width: 100%;
+        width: 90%;
+    }
+}
+
+/* WHEN */
+h4 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size:  2.85em;
+    margin-bottom: 0;
+}
+
+/* Countdown */ 
+h5 {
+    color: #B22222;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size:  2.0em;
+    margin-bottom: 2;
+    margin-top: 0;
+    border: 7px solid #B22222;
+    padding: 10px;
+    display: inline-block; 
+}
+
+
+h6 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 2.85em;
+    margin-bottom: 0;
+    Margin-top:0;
+}
+
+.aura-pair {
+    margin-top: 0;  
+    display: flex;
+    justify-content: center; /* Centers the images within the container */
+    gap: 10px;               /* Adds space between the images */
+    flex-wrap: nowrap;       /* Keeps images side by side on smaller screens */
+}
+.aura-pair img {
+    width: 100%; /* Ensures images stay within container size */
+    max-width: 250px; /* Limits max width to prevent images from stretching too wide */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+@media (max-width: 600px) {
+    .aura-pair {
+        flex-wrap: nowrap;
+    }
+
+    .aura-pair img {
+        width: 40vw;  /* Slightly smaller width to prevent cutoff */
+        max-width: none;
+    }
+}

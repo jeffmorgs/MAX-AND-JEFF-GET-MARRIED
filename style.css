@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Users/jeffreymorgan/Desktop/Wedding site/images/paper.jpg");
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-attachment: fixed; /* Keep it fixed while scrolling */
+    background-position: center; /* Center the image */
+}
+
+/* Ensure the landing container has a transparent background */
+.landing-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust this to your preference */
+    padding: 20px; /* Add some padding if needed */
+    border-radius: 10px; /* Keep rounded corners */
+}
+}
+
+.landing-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+}
+
+.landing-image {
+    width: 600px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    object-fit: cover; /* Keeps the aspect ratio */
+}
+
+.password-box {
+    position: absolute; /* Absolute positioning */
+    top: 55%; /* Center vertically */
+    left: 42%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset to truly center */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    padding: 10px; /* Padding around the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 2, 0); /* Optional shadow */
+    display: flex; /* Align input and button inline */
+}
+
+input[type="password"] {
+    padding: 10px; /* Add some padding for better appearance */
+    margin-right: 10px; /* Space between input and button */
+    font-size: 1em; /* Adjust font size */
+}
+
+input[type="password"]:focus {
+    outline: 2px solid #696969; /* Change #yourDesiredColor to the color you prefer */
+    padding: 10px; /* Padding for better appearance */
+    margin-right: 10px; /* Space between input and button */
+    font-size: 1em; /* Adjust font size */
+    width: 200px; /* Fixed width for the input box */
+}
