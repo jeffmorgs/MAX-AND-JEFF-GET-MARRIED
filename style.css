@@ -72,3 +72,11 @@ input[type="password"]:focus {
         object-fit: contain; /* Ensures the whole image is visible */
     }
 }
+
+@media (max-width: 600px) {
+    .password-box {
+        position: absolute; /* Absolute positioning */
+        top: 60%; /* Center vertically */
+        left: 42%; /* Center horizontally */
+    }
+}
