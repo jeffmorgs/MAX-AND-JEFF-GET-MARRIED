@@ -19,13 +19,12 @@ a {
 .navbar {
     width: 100%;
     max-width: 431px;
-    margin: 20px auto; 
+    margin: 0; 
     font-size: 1.25em;
     background-color: #FFFFFF;
     justify-content: center;
     text-align: center;
     display: inline-block;
-    padding: 10px 0; 
 }
 
 .navbar a {
