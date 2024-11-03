@@ -220,6 +220,7 @@ h6 {
 }
 
 .aura-pair {
+    margin-top: 0;  
     display: flex;
     justify-content: center; /* Centers the images within the container */
     gap: 10px;               /* Adds space between the images */
