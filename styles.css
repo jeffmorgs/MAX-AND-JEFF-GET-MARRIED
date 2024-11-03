@@ -19,7 +19,7 @@ a {
 .navbar {
     width: 100%;
     max-width: 431px;
-    margin: 0; 
+    margin: 0 auto; 
     font-size: 1.25em;
     background-color: #FFFFFF;
     justify-content: center;
@@ -29,7 +29,7 @@ a {
 
 .navbar a {
     color: #B22222;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .navbar a:hover {
