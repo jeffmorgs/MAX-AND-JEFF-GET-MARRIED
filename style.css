@@ -64,10 +64,10 @@ input[type="password"]:focus {
     width: 200px; /* Fixed width for the input box */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .landing-image {
-        width: auto; /* Keeps aspect ratio */
-        height: 100vh; /* Fill viewport height */
+        width: 100%; /* Keeps aspect ratio */
+        height: 90vh; /* Fill viewport height */
         object-fit: contain; /* Ensures the whole image is visible */
     }
 }
