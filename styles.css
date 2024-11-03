@@ -19,10 +19,11 @@ a {
 .navbar {
     width: 100%;
     max-width: 431px;
+    margin: 0; 
     font-size: 1.25em;
     background-color: #FFFFFF;
     padding: 5px;
-    display: center;
+    display: flex;
     justify-content: center;
 }
 
