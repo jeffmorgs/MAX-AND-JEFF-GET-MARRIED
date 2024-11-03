@@ -18,6 +18,7 @@ a {
 
 .navbar {
     width: 100%;
+    max-width: 431px;
     background-color: #FFFFFF;
     padding: 10px;
     display: flex;
