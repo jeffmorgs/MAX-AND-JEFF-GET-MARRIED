@@ -9,7 +9,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/Users/jeffreymorgan/Desktop/Wedding site/images/paper.jpg");
+    background-image: url("https://raw.githubusercontent.com/jeffmorgs/MAX-AND-JEFF-GET-MARRIED/refs/heads/main/paper.jpg");
     background-size: cover; /* Cover the entire viewport */
     background-repeat: no-repeat; /* Prevent repeating the image */
     background-attachment: fixed; /* Keep it fixed while scrolling */
