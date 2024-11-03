@@ -23,7 +23,7 @@ a {
     font-size: 1.25em;
     background-color: #FFFFFF;
     padding: 5px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     text-align: center;
 }
