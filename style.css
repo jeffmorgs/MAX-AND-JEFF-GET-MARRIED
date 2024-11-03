@@ -22,7 +22,6 @@ body, html {
     padding: 20px; /* Add some padding if needed */
     border-radius: 10px; /* Keep rounded corners */
 }
-}
 
 .landing-container {
     position: relative;
@@ -63,4 +62,12 @@ input[type="password"]:focus {
     margin-right: 10px; /* Space between input and button */
     font-size: 1em; /* Adjust font size */
     width: 200px; /* Fixed width for the input box */
+}
+
+@media (max-width: 768px) {
+    .landing-image {
+        width: auto; /* Keeps aspect ratio */
+        height: 100vh; /* Fill viewport height */
+        object-fit: contain; /* Ensures the whole image is visible */
+    }
 }
