@@ -76,7 +76,8 @@ input[type="password"]:focus {
 @media (max-width: 600px) {
     .password-box {
         position: absolute; /* Absolute positioning */
-        top: 60%; /* Center vertically */
+        top: 75%; /* Center vertically */
         left: 42%; /* Center horizontally */
+        transform: translateX(-50%); 
     }
 }
