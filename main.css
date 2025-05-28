@@ -188,8 +188,16 @@ h3 {
     }
 }
 
-/* WHEN */
 h4 {
+    color: #B22222;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size:  2.3em;
+    margin-bottom: 0;
+}
+
+/* WHEN */
+h5 {
     color: #B22222;
     font-weight: 900;
     letter-spacing: 2px;
@@ -198,7 +206,7 @@ h4 {
 }
 
 /* Countdown */ 
-h5 {
+h6 {
     color: #B22222;
     font-weight: 100;
     letter-spacing: 2px;
@@ -211,7 +219,7 @@ h5 {
 }
 
 
-h6 {
+h7 {
     color: #B22222;
     font-weight: 900;
     letter-spacing: 2px;
@@ -220,20 +228,11 @@ h6 {
     Margin-top:0;
 }
 
-h7 {
-    color: #B22222;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 2.5em;
-    margin-bottom: 0;
-    Margin-top:0;
-}
-
 h8 {
     color: #B22222;
     font-weight: 900;
     letter-spacing: 2px;
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-bottom: 0;
     Margin-top:0;
 }
